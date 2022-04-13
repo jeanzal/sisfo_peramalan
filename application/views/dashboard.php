@@ -16,7 +16,8 @@
         </div>
     </div>
     <!--<a type="button" target="_blank" href="proses/testmetode.php" class="btn btn-success btn-sm legitRipple mb-20">Export Excel <i class="icon-file-excel"></i></a>-->
-    <a style="position: absolute;right: 2%;" type="button" target="_blank" href="proses/metode.php" class="btn btn-primary btn-sm legitRipple mb-20"><i class="icon-stack-plus"></i> Perhitungan</a>
+    <a style="position: absolute;right: 2%;" type="button" target="_blank" href="proses/metode.php"
+        class="btn btn-primary btn-sm legitRipple mb-20"><i class="icon-stack-plus"></i> Perhitungan</a>
 
 
     <!--    <div class="col-xl-3 col-6 mb-4">
@@ -42,12 +43,14 @@
                     <div class="col mr-2">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Stok Barang</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Stok Barang
+                                </div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $stok; ?></div>
                             </div>
                             <div class="col-auto">
                                 <div class="progress progress-sm mr-2">
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +85,9 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Peramalan</div>
-                        <a  type="button" target="_blank" href="proses/metode.php" class=" legitRipple mb-20"><i class="icon-stack"></i> Click Here</a>
+                        <!-- <a  type="button" target="_blank" href="proses/metode.php" class=" legitRipple mb-20"><i class="icon-stack"></i> Click Here</a> -->
+                        <a type="button" href="<?= base_url('peramalan') ?>" class=" legitRipple mb-20"><i
+                                class="icon-stack"></i> Click Here</a>
 
                     </div>
                     <div class="col-auto">
@@ -101,7 +106,8 @@
         <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
             <div class="card-header bg-primary py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-white">Total Transaksi Barang Perbulan pada Tahun <?= date('Y'); ?></h6>
+                <h6 class="m-0 font-weight-bold text-white">Total Transaksi Barang Perbulan pada Tahun <?= date('Y'); ?>
+                </h6>
             </div>
             <!-- Card Body -->
             <div class="card-body">
@@ -114,7 +120,8 @@
                             <div class=""></div>
                         </div>
                     </div>
-                    <canvas id="myAreaChart" width="669" height="320" class="chartjs-render-monitor" style="display: block; width: 669px; height: 320px;"></canvas>
+                    <canvas id="myAreaChart" width="669" height="320" class="chartjs-render-monitor"
+                        style="display: block; width: 669px; height: 320px;"></canvas>
                 </div>
             </div>
         </div>
@@ -137,7 +144,8 @@
                         <div class=""></div>
                     </div>
                 </div>
-                <canvas id="myPieChart" width="302" height="245" class="chartjs-render-monitor" style="display: block; width: 302px; height: 245px;"></canvas>
+                <canvas id="myPieChart" width="302" height="245" class="chartjs-render-monitor"
+                    style="display: block; width: 302px; height: 245px;"></canvas>
             </div>
             <!--                <div class="mt-4 text-center small">
                                 <span class="mr-2">

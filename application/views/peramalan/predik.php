@@ -1,8 +1,7 @@
 
-
-<a href="<?= base_url('peramalan/satu') ?>">Double ExkponentialSmothing</a>
-<a href="<?= base_url('peramalan/dua') ?>">Perhitungan</a>
-<a href="<?= base_url('peramalan/metode') ?>">metode</a>
+<div class="card">
+    div.card-
+</div>
 
 <?php
     include 'koneksi.php';
