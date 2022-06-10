@@ -7,6 +7,10 @@
 - SB Admin 2 Template
 - Datatables
 - Chart.js
+- DES
+- Multilogin
+- CRUD
+- Prediksi Perbulan
 
 ### Keterangan <br/>
 Database : <code>ci_barang</code><br/>
